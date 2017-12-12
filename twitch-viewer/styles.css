@@ -1,0 +1,94 @@
+body, html {
+  height: 100%;
+  background-color: grey;
+	background-image: url('https://images.unsplash.com/photo-1487715433499-93acdc0bd7c3?auto=format&fit=crop&w=2614&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+	font-family: 'Raleway', sans-serif;
+}
+
+#overlay {
+	background-color: rgba(0,0,0, 0.75);
+	height: 200%;
+}
+
+#headline {
+	padding: 2% 0;
+	color: #999;
+}
+
+#headline-text{
+	font-family: 'Bungee', cursive;
+	font-size: 2.5rem;
+	font-weight: 100;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 100;
+	text-align: center;
+}
+
+#users {
+	background-color: rgba(191, 191, 191, 0.7);
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 5px;
+	padding: 0.5% 0;
+	box-shadow: 4px 4px 15px #000;
+	margin-bottom: 10%;
+}
+
+#status-toggle {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px 20px;
+}
+
+#userIds {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px 20px;
+}
+
+#logo img{
+	max-height: 100px;
+}
+
+#channelName {
+	font-size: 2rem;
+}
+
+#onOff {
+	font-size: 2rem;	
+}
+
+#status {
+	font-size: 1.25rem;	
+	text-align: left;
+}
+
+#dumping-ground {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px 20px;
+}
+
+.status-toggle {
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+
+.online{
+	display: visible;
+}
+.offline{
+	display: visible;
+}
