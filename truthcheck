@@ -1,0 +1,11 @@
+function truthCheck(collection, pre) {
+  var count = 0;
+  for (var i in collection) {
+    if (collection[i].hasOwnProperty(pre) && Boolean(collection[i][pre])) {
+      count++;
+    }
+  }
+  return count == collection.length;
+}
+
+truthCheck([{"name": "Pete", "onBoat": true}, {"name": "Repeat", "onBoat": true}, {"name": "FastFoward", "onBoat": null}], "onBoat")
