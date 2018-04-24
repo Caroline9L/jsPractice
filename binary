@@ -1,0 +1,8 @@
+function binaryAgent(str) {
+  str = str.split(" ").reduce(function(x, str) {
+    x.push(String.fromCharCode(parseInt(str, 2)));
+    return x;
+  }, []).join('');
+  
+  return str;
+}
